@@ -1,0 +1,146 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2px;
+}
+.navbar
+{ 
+    height:100px; 
+    background-color: #293040;
+    color:#D5B263;
+    display:flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 100px;
+    width:120px;
+}
+.logo{
+    background-image: url("LOGO.png");
+    background-size:cover;
+    height: 90px;
+    width:120%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 3px solid white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:#D5B263;
+}
+.content{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+   justify-content: center;
+
+   
+}
+.column-1{
+    margin-right: 1.5rem;
+}
+.column-2{
+    margin-left: 1.5rem;
+}
+.name{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;  
+}
+
+.photo{
+    padding-top: 30px;
+    height:500px;
+     border-radius: 50%;
+}
+.photo:hover{
+    transform: scale(0.8);
+}
+.about{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    background-color: #293040;
+    color:#D5B263;
+}
+.content-1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+   justify-content: center;}
+.photo-1{
+    padding-top: 30px;
+    height:500px;}
+.photo-1:hover{
+        transform: scale(0.8);   }
+.column-3{
+        margin-right: 1.5rem;
+    }
+.column-4{
+        margin-left: 1.5rem;
+    }
+.text-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+   text-transform: capitalize;
+   font-size: larger;
+}  
+.text-1:hover{
+    color: black;
+    font-weight: bold;    }   
+
+.photo-2{
+    padding-top: 30px;
+    height:500px;
+    border-radius: 20%;
+     }
+ .photo-2:hover{
+    transform: scale(0.8);   }  
+            
+ .photo-3{
+    
+    padding-top: 30px;
+    height:300px;}
+.photo-3:hover{
+    transform: scale(0.8);}    
+.photo-4{
+    padding-top: 30px;
+    height:300px;
+    width:470px; 
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+.photo-4:hover{
+    transform: scale(0.8);}
+              
+ .social{
+    
+    padding-top: 30px;
+    height-px;
+         }
+ footer{
+    height:100px; 
+    background-color: #293040;
+    color:#D5B263;
+    font-size: 30px;
+    text-align: center;
+   text-transform: capitalize;
+  } 
+  .last{
+    text-transform: none;
+    font-size: 15px;
+  }              
+
+        
